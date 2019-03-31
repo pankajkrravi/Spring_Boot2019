@@ -1,0 +1,37 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="e1" class="com.goomo.Engine">
+		<property name="modelYear" value="2010"></property>
+	</bean>
+	<bean id="e2" class="com.goomo.Engine">
+		<property name="modelYear" value="2012"></property>
+	</bean>
+	<bean id="e3" class="com.goomo.Engine">
+		<property name="modelYear" value="2015"></property>
+	</bean>
+	<bean id="e4" class="com.goomo.Engine">
+		<property name="modelYear" value="2019"></property>
+	</bean>
+	<bean id="c" class="com.goomo.Car">
+		<property name="carnames">
+			<list>
+				<value>AUDI</value>
+				<value>BMW</value>
+				<value>HONDA</value>
+				<value>benz</value>
+			</list>
+
+		</property>
+		<property name="engine">
+				<list>
+					<ref bean="e1" />
+					<ref bean="e2" />
+					<ref bean="e3" />
+					<ref bean="e3" />
+					<ref bean="e4" />
+				</list>
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,39 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:batch="http://www.springframework.org/schema/batch"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/batch
+		http://www.springframework.org/schema/batch/spring-batch-2.2.xsd
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+	<!-- <bean/> definitions here -->
+</beans>
+<bean id="t" class="com.goomo.Test">
+	<property name="fruits">
+		<util:list list-class="java.util.Vector">
+			<value>Apple</value>
+			<value>
+				Mango
+				<value>
+					<value>Grapes</value>
+		</util:list>
+	</property>
+	<property name="cricketers">
+		<util:set srt-class="java.util.TreeSet">
+			<value>
+				Sachin/value>
+				<value>Sehwag</value>
+				<value>Rahul</value>
+		</util:set>
+	</property>
+	<property name="countrycap">
+		<util:map map-class="java.util.Hashtable">
+			<entry key="INDIA" value="DELHI"></entry>
+			<entry key="Pakistan" value="IslMbad"></entry>
+			<entry key="Nepal" value="Kathmandu"></entry>
+		</util:map>
+	</property>
+</bean>
+</beans>
+﻿
+ 

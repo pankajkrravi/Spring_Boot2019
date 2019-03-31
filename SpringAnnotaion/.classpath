@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/spring-webmvc-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/spring-web-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/spring-tx-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/spring-orm-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/spring-jdbc-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/spring-instrument-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/spring-expression-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/spring-dao-2.0.3.jar"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/spring-core-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/spring-context-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/spring-beans-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/spring-aop-5.0.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/pankajk/Desktop/spring-5.0.8/commons-logging.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
